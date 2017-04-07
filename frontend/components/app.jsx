@@ -2,7 +2,7 @@ import React from 'react';
 
 const App = ({ children }) => (
   <div>
-    <h1>Tldr</h1>
+    <h1 className='test'>Tldr</h1>
     { children }
   </div>
 );
