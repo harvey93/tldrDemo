@@ -1,4 +1,12 @@
 .footer-div {
   display: flex;
   background: #cb4f83;
+  justify-content: space-around;
+}
+
+.profile-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 150px;
 }
