@@ -1,9 +1,12 @@
 import React from 'react';
+import Footer from './footer';
+import Header from './header';
 
 const App = ({ children }) => (
   <div>
-    <h1 className='test'>Tldr</h1>
+  <Header />
     { children }
+    <Footer />
   </div>
 );
 
