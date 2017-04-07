@@ -14,9 +14,4 @@
  */
 
 @import "base/reset.scss";
-
-.test{
-  font-size: 30px;
-  border: 1px solid black;
-  background-color: red;
-}
+@import "header.scss";
