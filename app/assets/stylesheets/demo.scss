@@ -1,0 +1,14 @@
+.crop-image {
+  position: absolute;
+  clip: rect(0px,1500px,420px,0px);
+}
+
+.demo-div{
+  background-image: url("http://res.cloudinary.com/harvey93/image/upload/v1491682908/background_ybfmbw.png");
+  margin-left: 5%;
+  max-width: 1200px;
+  height: 650px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  // background-color: #cccccc;
+}
