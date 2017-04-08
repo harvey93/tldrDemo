@@ -7,8 +7,9 @@ class Demo extends React.Component {
 
   render(){
     return(
-      <div>
-        <h1>Demo</h1>
+      <div className='demo-container'>
+        <div className='demo-div'>
+        </div>
       </div>
     );
   }
