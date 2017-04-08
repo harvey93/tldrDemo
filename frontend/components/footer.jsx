@@ -1,41 +1,68 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
+import { Link } from 'react-router';
 
-const Footer = ()=> {
-  return(
-    <div className='footer-div'>
-      <div className='profile-div'>
+class Footer extends React.Component {
+  constructor(){
+    super();
 
-        <div><i className="fa fa-github-square" aria-hidden="true"></i></div>
-        <div><i className="fa fa-linkedin-square" aria-hidden="true"></i></div>
-        <h1>Harvey Mirijanyan</h1>
-        <div>
-          <a href='https://github.com/harvey93'>Github</a>
+  }
+
+  render(){
+    return(
+      <div className='footer-div'>
+        <div className='profile-div'>
+
+          <h1>Harvey Mirijanyan</h1>
+
+          <a href='https://github.com/harvey93'>
+            <div className='icon-div'>
+              <i className="fa fa-github-square" aria-hidden="true"></i>
+              <h1>Github</h1>
+            </div>
+          </a>
+
+          <a href='https://www.linkedin.com/in/harvey-mirijanyan-79a133ba'>
+            <div className='icon-div'>
+              <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+              <h1>Linkedin</h1>
+            </div>
+          </a>
         </div>
-        <div>
-          <a href='https://www.linkedin.com/in/harvey-mirijanyan-79a133ba'>Linkedin</a>
+
+        <div className='profile-div'>
+          <h1>Ryley Sill</h1>
+            <a href='https://github.com/RyleySill93'>
+              <div className='icon-div'>
+                <i className="fa fa-github-square" aria-hidden="true"></i>
+                <h1>Github</h1>
+              </div>
+            </a>
+            <a href='https://www.linkedin.com/in/ryleysill'>
+              <div className='icon-div'>
+                <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                <h1>Linkedin</h1>
+              </div>
+            </a>
+        </div>
+        <div className='profile-div'>
+          <h1>Daniel Cheng</h1>
+          <a href='https://github.com/MrDSGC'>
+              <div className='icon-div'>
+                <i className="fa fa-github-square" aria-hidden="true"></i>
+                <h1>Github</h1>
+              </div>
+          </a>
+          <a href='https://www.linkedin.com/in/dcheng47/'>
+              <div className='icon-div'>
+                <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                <h1>Linkedin</h1>
+              </div>
+          </a>
         </div>
       </div>
-      <div className='profile-div'>
-        <h1>Ryley Sill</h1>
-        <div>
-          <a href='https://github.com/RyleySill93'>Github</a>
-        </div>
-        <div>
-          <a href='https://www.linkedin.com/in/ryleysill/'>Linkedin</a>
-        </div>
-      </div>
-      <div className='profile-div'>
-        <h1>Daniel Cheng</h1>
-        <div>
-          <a href='https://github.com/MrDSGC'>Github</a>
-        </div>
-        <div>
-          <a href='https://www.linkedin.com/in/dcheng47/'>Linkedin</a>
-        </div>
-      </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default Footer;
