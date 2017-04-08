@@ -1,0 +1,28 @@
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f762a1;
+  color: white;
+  height: 80px;
+}
+
+.logo-div {
+  margin-left: 5%;
+}
+
+.repo-div {
+  margin-right: 5%;
+}
+
+.logo-image{
+  height: 70px;
+  width: 100px;
+}
+
+.header-icon-div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  width: 175px;
+}
