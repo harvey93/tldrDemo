@@ -20,7 +20,7 @@ class Smmry extends React.Component {
         <div className='image-div'>
           <img
             className='phone-image'
-            src='http://res.cloudinary.com/harvey93/image/upload/v1491689260/Screen_Shot_2017-04-08_at_3.07.19_PM_gkeyn4.png' />
+            src='http://res.cloudinary.com/harvey93/image/upload/v1491693189/smmry-iphone_wrzrll.png' />
         </div>
       </div>
     );
