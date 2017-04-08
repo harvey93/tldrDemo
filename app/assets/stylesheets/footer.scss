@@ -1,6 +1,6 @@
 .footer-div {
   display: flex;
-  background: #cb4f83;
+  background: #2ac8ff;
   justify-content: space-around;
 }
 
@@ -14,4 +14,15 @@
 .icon-div{
   display: flex;
   font-size: 20px;
+  width: 100px;
+  color: white;
+}
+
+.link-text {
+  margin-left: 10px;
+}
+
+.name-tag {
+  font-size: 22px;
+  color: white;
 }
