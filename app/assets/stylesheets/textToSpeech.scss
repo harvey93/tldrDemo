@@ -17,4 +17,12 @@
   font-size: 20px;
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+
+.tts-title-text {
+  margin-bottom: 30px;
+  font-size: 30px;
+  width: 200px;
+  height: auto;
 }
