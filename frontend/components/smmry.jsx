@@ -12,24 +12,26 @@ class Smmry extends React.Component {
         <div>
           <img
             className='image-background'
-            src='http://res.cloudinary.com/harvey93/image/upload/c_scale,h_275/v1491697104/stack_nfcgmo.png'/>
+            src='http://res.cloudinary.com/harvey93/image/upload/c_scale,h_211/v1491697104/stack_nfcgmo.png'/>
         </div>
         <div>
-          <img src='http://res.cloudinary.com/harvey93/image/upload/c_scale,h_200/v1491695103/arrow-point-to-right_tsyctn.png'/>
+          <img src='http://res.cloudinary.com/harvey93/image/upload/c_scale,h_153/v1491695103/arrow-point-to-right_tsyctn.png'/>
         </div>
         <div>
-          <img src='http://res.cloudinary.com/harvey93/image/upload/c_scale,h_200/v1491694380/document-icon-10_qfdaea.png'/>
+          <img src='http://res.cloudinary.com/harvey93/image/upload/c_scale,h_153/v1491694380/document-icon-10_qfdaea.png'/>
         </div>
       </div>
-
-
-        <div className='text-div'>
-          <h1 className='line'>Using the SMMRY Api,
+      <div className='text-div'>
+        <h1 className='smmry-title-text'>SMMRY</h1>
+        <h1 className='line'>Using the SMMRY Api,
           Tldr will summarize long form articles
           by 85 - 90%. No need to worry about the
           details, now you can just skim through the
           important parts of every article.</h1>
-        </div>
+      </div>
+
+
+
 
 
     </div>
