@@ -2,7 +2,7 @@ var path = require('path');
 var webpack = require("webpack");
 
 module.exports = {
-  entry: './frontend/air_bnb.jsx',
+  entry: './frontend/tldr.jsx',
   output: {
     filename: './app/assets/javascripts/bundle.js',
   },
