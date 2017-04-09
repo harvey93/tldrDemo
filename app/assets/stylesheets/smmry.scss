@@ -13,8 +13,32 @@
 .text-div{
   color: #253f3f;
   font-size: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding: 15px 5px 20px 15px;
+  width: 400px;
+
+  margin-bottom: 20px;
 }
 
 .line {
   margin-bottom: 8px;
+}
+
+.image-background {
+}
+
+.text-div-container {
+  display: flex;
+  justify-content: center;
+}
+
+.smmry-div-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(42, 200, 255, 0.21);
+  align-items: center;
 }
