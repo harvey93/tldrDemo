@@ -4,7 +4,7 @@
 }
 
 .demo-div{
-  background-image: url("http://res.cloudinary.com/harvey93/image/upload/c_scale,w_993/v1491686595/background-cropped_inaa9p.png");
+  background-image: url("http://res.cloudinary.com/harvey93/image/upload/c_scale,o_60,w_933/v1491686595/background-cropped_inaa9p.png");
   width: 100%;
   height: 600px;
   background-repeat: no-repeat;
@@ -14,9 +14,39 @@
   // background-color: #cccccc;
 }
 
+.demo-div-opacity::after {
+  opacity: 0.6;
+}
+
 .demo-container{
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
 }
+
+.gif {
+  width: 212px;
+  height: auto;
+  position: absolute;
+  top: 61px;
+  left: 16px;
+  opacity: 1;
+  z-index: 4;
+}
+
+.iphone-div {
+  background-image: url("http://res.cloudinary.com/harvey93/image/upload/c_scale,h_500/v1491775967/iphone_pb9ezj.png");
+  width: 245px;
+  height: 500px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-position: center;
+  position: relative;
+  opacity: 1;
+  z-index: 1;
+
+}
+
+// https://res.cloudinary.com/harvey93/image/upload/v1491775967/iphone_pb9ezj.png
