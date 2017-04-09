@@ -22,18 +22,13 @@ class Smmry extends React.Component {
         </div>
       </div>
       <div className='text-div'>
-        <h1 className='smmry-title-text'>SMMRY</h1>
+        <img className='smmry-title-text' src='http://res.cloudinary.com/harvey93/image/upload/c_scale,w_200/v1491771672/smmry-logo_ntnkw3.png'/>
         <h1 className='line'>Using the SMMRY Api,
           Tldr will summarize long form articles
           by 85 - 90%. No need to worry about the
           details, now you can just skim through the
           important parts of every article.</h1>
       </div>
-
-
-
-
-
     </div>
     );
   }
