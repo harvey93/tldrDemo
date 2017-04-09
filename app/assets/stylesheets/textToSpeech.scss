@@ -2,10 +2,19 @@
   background: white;
   display: flex;
   justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .tts-img-div{
   max-width: 300px;
 }
-.tts-img{
+
+.tts-text-div{
+  font-weight: bolder;
+  max-width: 300px;
+  color: #253f3f;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
 }
