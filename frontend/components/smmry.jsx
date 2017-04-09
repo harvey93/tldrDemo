@@ -7,9 +7,12 @@ class Smmry extends React.Component {
 
   render(){
     return(
+      <div className='smmry-div-container'>
       <div className='smmry-div'>
         <div>
-          <img src='http://res.cloudinary.com/harvey93/image/upload/c_scale,h_275/v1491694381/document-icon-19_g03xu6.png'/>
+          <img
+            className='image-background'
+            src='http://res.cloudinary.com/harvey93/image/upload/c_scale,h_275/v1491697104/stack_nfcgmo.png'/>
         </div>
         <div>
           <img src='http://res.cloudinary.com/harvey93/image/upload/c_scale,h_200/v1491695103/arrow-point-to-right_tsyctn.png'/>
@@ -18,6 +21,18 @@ class Smmry extends React.Component {
           <img src='http://res.cloudinary.com/harvey93/image/upload/c_scale,h_200/v1491694380/document-icon-10_qfdaea.png'/>
         </div>
       </div>
+
+
+        <div className='text-div'>
+          <h1 className='line'>Using the SMMRY Api,
+          Tldr will summarize long form articles
+          by 85 - 90%. No need to worry about the
+          details, now you can just skim through the
+          important parts of every article.</h1>
+        </div>
+
+
+    </div>
     );
   }
 }
@@ -25,15 +40,13 @@ class Smmry extends React.Component {
 export default Smmry;
 
 // <div className='smmry-div'>
-//   <div className='text-div'>
-//     <h1 className='line'>Using the SMMRY Api,</h1>
-//     <h1 className='line'>Tldr will summarize long form articles</h1>
-//     <h1 className='line'>by 85 - 90%. No need to worry about the</h1>
-//     <h1 className='line'>details, now you can just skim through the</h1>
-//     <h1 className='line'>important parts of every article. From</h1>
-//     <h1 className='line'>Sports and Entertainment to Politics and </h1>
-//     <h1 className='line'>Business, all your news in one place!</h1>
-//   </div>
+  // <div className='text-div'>
+  //   <h1 className='line'>Using the SMMRY Api,</h1>
+  //   <h1 className='line'>Tldr will summarize long form articles</h1>
+  //   <h1 className='line'>by 85 - 90%. No need to worry about the</h1>
+  //   <h1 className='line'>details, now you can just skim through the</h1>
+  //   <h1 className='line'>important parts of every article./h1>
+  // </div>
 //   <div className='image-div'>
 //     <img
 //       className='phone-image'
