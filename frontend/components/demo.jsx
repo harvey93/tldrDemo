@@ -12,7 +12,7 @@ class Demo extends React.Component {
           <div className='iphone-div'>
           <img
             className='gif'
-            src='https://res.cloudinary.com/harvey93/image/upload/v1491775737/giphy_ostf9l.gif'/>
+            src='http://res.cloudinary.com/harvey93/image/upload/v1491853637/giphy_1_lmfj2z.gif'/>
         </div>
         </div>
       </div>
@@ -21,3 +21,5 @@ class Demo extends React.Component {
 }
 
 export default Demo;
+
+// https://res.cloudinary.com/harvey93/image/upload/v1491775737/giphy_ostf9l.gif
