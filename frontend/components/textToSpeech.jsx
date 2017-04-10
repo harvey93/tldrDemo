@@ -23,4 +23,3 @@ class TextToSpeech extends React.Component {
 }
 
 export default TextToSpeech;
-// http://res.cloudinary.com/harvey93/image/upload/c_scale,w_300/v1491771718/Google_2015_logo.svg_rjsifs.png
